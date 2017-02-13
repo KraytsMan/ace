@@ -382,7 +382,7 @@ define("ace/mode/solidity_highlight_rules",["require","exports","module","ace/li
 
     oop.inherits(solidityHighlightRules, TextHighlightRules);
 
-    exports.solidityHighlightRules = solidityHighlightRules;
+    exports.HighlightRules = solidityHighlightRules;
 });
 
 define("ace/mode/folding/cstyle",["require","exports","module","ace/lib/oop","ace/range","ace/mode/folding/fold_mode"], function(require, exports, module) {
